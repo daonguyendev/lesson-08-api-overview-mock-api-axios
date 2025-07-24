@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HomePage = () => {
   return (
     <>
-      <div>HomePage</div>
+      <div className='main-content'>HomePage</div>
     </>
   );
 }

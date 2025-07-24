@@ -28,8 +28,8 @@ const ProductView = () => {
   if (!product) return <p>Product not found.</p>;
 
   return (
-    <div style={{ maxWidth: "960px", margin: "0 auto", padding: "0 20px" }}>
-      <h2>Product View</h2>
+    <div className="main-content">
+      <h2 style={{ textAlign: "left" }}>Product View</h2>
       <div style={{ textAlign: "left" }}>
         <p>
           <strong>ID:</strong> {product.id}

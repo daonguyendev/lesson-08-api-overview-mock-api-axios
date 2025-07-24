@@ -53,7 +53,7 @@ const ProductEdit = () => {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div>
+    <div className="main-content">
       <h2>Edit Product</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -110,7 +110,7 @@ const ProductEdit = () => {
           </select>
         </div>
         <button className="btn btn-submission" type="submit">
-          Edit
+          Update
         </button>
       </form>
     </div>
