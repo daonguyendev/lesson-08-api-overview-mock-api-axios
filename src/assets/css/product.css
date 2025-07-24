@@ -1,0 +1,36 @@
+.btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.btn-add {
+    display: block;
+    width: 167px;
+    background-color: #007bff;
+}
+
+.btn-view {
+    background-color: #28a745;
+}
+
+.btn-edit {
+    background-color: #fd7e14;
+}
+
+.btn-remove {
+    background-color: #dc3545;
+}
+
+.btn-submission {
+    margin-top: 10px;
+    background-color: #007bff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    color: white;
+}

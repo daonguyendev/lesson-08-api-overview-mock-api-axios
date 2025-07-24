@@ -1,0 +1,54 @@
+.menu {
+    display: flex;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 1 1 20%;
+    /* Each takes 20% of the full width */
+    text-align: center;
+    position: relative;
+}
+
+.menu-item a {
+    display: block;
+    color: white;
+    padding: 14px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-item a:hover {
+    background-color: #444;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sub-menu-item a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+
+.sub-menu-item a:hover {
+    background-color: #555;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
