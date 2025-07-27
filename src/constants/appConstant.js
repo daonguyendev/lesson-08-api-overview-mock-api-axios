@@ -1,2 +1,2 @@
 export const API_PREFIX =
-  "https://687076877ca4d06b34b6db1b.mockapi.io/api/v1";
+  "https://6884c141745306380a39457a.mockapi.io/api/v1";
